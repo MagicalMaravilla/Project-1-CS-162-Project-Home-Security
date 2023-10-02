@@ -1,0 +1,140 @@
+ C:/Users/tony_/Desktop/pythonProject2/HomeSecurityPassword.py
+Enter your username: Tony M_
+Welcome Tony M_!
+Enter a 4 digit numeric password: ffff
+Invalid input. Please enter a 4-digit numeric password
+Enter a 4 digit numeric password: 2023
+Password set successfully, welcome Tony M_ to Secure Homes Inc family. Your safety is our number one concern.
+
+Menu:
+1. Display User Info
+2. Set Guest Access
+3. Verify Guest Access
+4. Owner Override
+5. Set Guest Password
+6. Guest Feature
+7. Exit
+Enter your choice: 2
+Enter the number of days for guest access (1 - 31): 7
+Do you want to set a specific time of day for access (yes/no): yes
+Enter the time in HH:MM format (24-hour):1330
+Invalid time format. Please use HH:MM in 24-hour format.
+Do you want to set a specific time of day for access (yes/no): yes
+Enter the time in HH:MM format (24-hour):13:30
+Guest access granted until 2023-10-09 13:30:00
+
+Menu:
+1. Display User Info
+2. Set Guest Access
+3. Verify Guest Access
+4. Owner Override
+5. Set Guest Password
+6. Guest Feature
+7. Exit
+Enter your choice: 5
+Enter a 4 digit numeric password for guest: 1776
+Guest password set successfully.
+
+Menu:
+1. Display User Info
+2. Set Guest Access
+3. Verify Guest Access
+4. Owner Override
+5. Set Guest Password
+6. Guest Feature
+7. Exit
+Enter your choice: 6
+Guest can view the current time.
+Current time: 15:31:40
+Guest access will expire in 6 days, 21 hours, 58 minutes, and 19 seconds.
+
+Menu:
+1. Display User Info
+2. Set Guest Access
+3. Verify Guest Access
+4. Owner Override
+5. Set Guest Password
+6. Guest Feature
+7. Exit
+Enter your choice: 4
+Enter owner password for override: 2023
+Owner Override successful. Access granted.
+
+Owner Override Menu:
+1. Extend Guest Access
+2. Reset Guest Password
+3.Return to Main Menu
+Enter your choice: 1
+Enter the number of days for guest access (1 - 31): 14
+Do you want to set a specific time of day for access (yes/no): no
+Guest access granted until 2023-10-16 15:32:00
+
+Owner Override Menu:
+1. Extend Guest Access
+2. Reset Guest Password
+3.Return to Main Menu
+Enter your choice: 2
+Enter a 4 digit numeric password for guest: 5544
+Guest password set successfully.
+
+Owner Override Menu:
+1. Extend Guest Access
+2. Reset Guest Password
+3.Return to Main Menu
+Enter your choice: 3
+
+Menu:
+1. Display User Info
+2. Set Guest Access
+3. Verify Guest Access
+4. Owner Override
+5. Set Guest Password
+6. Guest Feature
+7. Exit
+Enter your choice: 3
+Enter guest password: 5544
+Guest access granted.
+
+Menu:
+1. Display User Info
+2. Set Guest Access
+3. Verify Guest Access
+4. Owner Override
+5. Set Guest Password
+6. Guest Feature
+7. Exit
+Enter your choice: 6
+Guest can view the current time.
+Current time: 15:34:05
+Guest access will expire in 13 days, 23 hours, 57 minutes, and 54 seconds.
+
+Menu:
+1. Display User Info
+2. Set Guest Access
+3. Verify Guest Access
+4. Owner Override
+5. Set Guest Password
+6. Guest Feature
+7. Exit
+Enter your choice: 1
+
+User Information:
+Username: Tony M_
+Password: **** (masked for security)
+Guest Experation: 2023-10-16 15:32:00
+Failed Attempts: 0
+System Locked Until: Not Set
+Guest Access Attempts: 0
+
+Menu:
+1. Display User Info
+2. Set Guest Access
+3. Verify Guest Access
+4. Owner Override
+5. Set Guest Password
+6. Guest Feature
+7. Exit
+Enter your choice: 7
+Goodbye!
+
+Process finished with exit code 0
